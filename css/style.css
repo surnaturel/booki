@@ -629,9 +629,7 @@ footer{
     .recherche-1{
         display: none;
     }
-    .btn-filters-cols1{
-        display: none;
-    }
+
     .filtreBar{
         display: flex;
         flex-direction: column;
@@ -640,6 +638,9 @@ footer{
         width: 100%;
         height: 100%;
         border: 2px solid black;
+    }
+    .filtreBar .btn-filters-cols1{
+        display: none;
     }
     .filtreBar .btn-filters-cols{
         display: flex;
