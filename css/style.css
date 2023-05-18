@@ -81,7 +81,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap:40px;
-
+    margin-bottom: 40px;
 }
 .infromation-titre-paragraphe{
     width: 100%;
@@ -165,6 +165,7 @@ body {
     align-items: center;
     width: 758px;
     height: 50px;
+    
 }
 .filtreBar h2{
     margin: 0px;
@@ -188,7 +189,7 @@ body {
     border-radius: 25px;
     width: 60%;
     height: 50px;
-    background-color: #D9D9D9;
+    background-color: #FFF;
 }
 .filtreBar .btn-filter:hover{
     background-color: #DEEBFF;
@@ -238,7 +239,7 @@ body {
 .card {
     background-color: white;
     border-radius: 20px;
-    padding: 5px;
+    padding: 2px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
@@ -278,25 +279,28 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 30px;
-    gap: 50px;
+    padding: 10px;
+    gap: 20px;
     width: 65%;
+    
 }
 
 .herbergements-cards{
     display: flex;
     gap: 20px;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
     height: 28vh;
     margin: auto;
+    padding: 0;
 }
 .herbergements-cards .card{
-    width: 40%;
-    height: 27vh;
+    width: 28%;
+    height: 26vh;
 }
 .herbergements-cards .card img{
-    width: 98%;
+    width: 100%;
     height: 18vh;
     border-radius: 20px 20px 0px ;
 }
@@ -390,6 +394,8 @@ body {
     gap: 30px;
     width: 100%;
     height: 559.02px;
+    border: 2px solid red;
+    padding: 30px;
 
 }
 .activite h1{
@@ -587,13 +593,14 @@ footer{
         position: relative;
     }
     .logo img{
-        margin: 0 auto;
+        left: 30px;
     }
     .menu{
         width: 100%;
         height: 35px;
         position: relative;
         width: 100%;
+        
     }
     .menu .btn-nav{
         position: absolute;
@@ -601,7 +608,13 @@ footer{
         left: 0px;
         margin: 0px auto;
         width: 100%;
+        
     }
+    .menu .btn-nav li{
+        width: 50%;
+        text-align: center;
+    }
+
     .heberger a{
         border-top: 0px;
         border-bottom: 2px solid #0065FC;
@@ -683,6 +696,7 @@ footer{
     }
     .hebergements {
         width: 100%;
+        background-color: white !important;
     }
     .herbergements-cards {
         display: flex;
