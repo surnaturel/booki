@@ -170,15 +170,19 @@ body {
 .filtreBar h2{
     margin: 0px;
 }
-.filtreBar .btn-filters-cols1{
+.filtreBar .btn-filters-cols{
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 15px;
-    width: 90%;
+    width: 80%;
 }
-.btn-filters-cols{
-    display: none;
+
+.btn-filters-cols .btn-col{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12px;
 }
 .filtreBar .btn-filter{
     display: flex;
@@ -209,7 +213,6 @@ body {
     text-align: center;
     color: #000000;
 }
-
 .info-bar{
     display: flex;
     align-items: center;
@@ -217,7 +220,6 @@ body {
     width: 100%;
     height: 24px;
 }
-
 
 .info-bar p,a{
     margin: 0px;
@@ -282,9 +284,7 @@ body {
     padding: 10px;
     gap: 20px;
     width: 65%;
-    
 }
-
 .herbergements-cards{
     display: flex;
     gap: 20px;
@@ -394,7 +394,6 @@ body {
     gap: 30px;
     width: 100%;
     height: 559.02px;
-    border: 2px solid red;
     padding: 30px;
 
 }
@@ -649,9 +648,6 @@ footer{
     .recherche-1{
         display: none;
     }
-    .btn-filters-cols1{
-        display: none;
-    }
     .filtreBar{
         display: flex;
         flex-direction: column;
@@ -660,15 +656,12 @@ footer{
         width: 100%;
         height: 100%;
     }
-    .filtreBar .btn-filters-cols1{
-        display: none;
-    }
     .filtreBar .btn-filters-cols{
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        width: 90%;
+        width: 60%;
         margin: 0 auto;
         gap: 10px;
     }
@@ -728,8 +721,7 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: center;
-        
+        align-items: center; 
     }
     .populaires-cards .card {
         width: 90%;
