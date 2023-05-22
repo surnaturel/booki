@@ -8,9 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -18,15 +16,15 @@
     <div class="main-container">
         <header class="menu-logo">
             <div class="logo">
-                <img src="/images/logo/Booki.png" alt="logo de l'entreprise">
+                <img src="./images/logo/Booki.png" alt="logo de l'entreprise">
             </div>
             <nav class="menu">
                 <ul class="btn-nav">
                     <li class="heberger">
-                        <a href="#">Hebergements</a>
+                        <a href="#hebergements">Hébergements</a>
                     </li>
                     <li class="activites">
-                        <a href="#">Activites</a>
+                        <a href="#populaires">Activités</a>
                     </li>
                 </ul>
             </nav>
@@ -34,41 +32,23 @@
         <main>
             <div class="information-group">
                 <div class="infromation-titre-paragraphe">
-                    <h1 class="titre_info">Trouver votre herbergement pour des vacances de reves</h1>
+                    <h1 class="titre_info">Trouver votre hérbergement pour des vacances de reves</h1>
                     <p>En plein centre-ville ou en pleine nature</p>
                 </div>
                 <div class="search-bar-icon">
                     <div class="icon">
                         <i class="fa-solid fa-location-dot"></i>
                     </div>
-                    <input type="text" name="nom_hotel" value="Marseil,France">
+                    <input type="text" name="nom_hotel" value="Marseille,France">
                     <button class="btn-recherche">
-                        <span class="recherche-1">Rechercher</span>
+                        <span class="recherche-1">Réchercher</span>
                         <i class="fa-solid fa-magnifying-glass recherche"></i>
                     </button>
                 </div>
                 <div class="filtreBar">
                     <h2 class="titre-filtre">Filtre</h2>
-                    <div class="btn-filters-cols1">
-                        <button class="btn-filter">
-                            <i class="fa-solid fa-money-bill-wave"></i>
-                            <span>Economiques</span>
-                        </button>
-                        <button  class="btn-filter">
-                            <i class="fa-solid fa-child"></i>
-                            <span>Familial</span>
-                        </button>
-                        <button  class="btn-filter">
-                            <i class="fa-solid fa-heart"></i>
-                            <span>Romatique</span>
-                        </button>
-                        <button  class="btn-filter">
-                            <i class="fa-solid fa-fire"></i>
-                            <span>Nos pepites</span> 
-                        </button>
-                    </div>
                     <div class="btn-filters-cols">
-                        <div class="col1">
+                        <div class="col1 btn-col">
                             <button class="btn-filter">
                                 <i class="fa-solid fa-money-bill-wave"></i>
                                 <span>Economiques</span>
@@ -78,7 +58,7 @@
                                 <span>Familial</span>
                             </button>
                         </div>
-                        <div class="col2">
+                        <div class="col2 btn-col">
                             <button  class="btn-filter">
                                 <i class="fa-solid fa-heart"></i>
                                 <span>Romatique</span>
@@ -89,7 +69,6 @@
                             </button>   
                         </div>       
                     </div>
-
                 </div>
                 <div class="info-bar">
                     <a href=""><i class="fa-solid fa-circle-info"></i></a>
@@ -97,7 +76,7 @@
                 </div>
             </div>
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section id="hebergements" class="hebergements">
                     <h1>Hebergements a Marseille</h1>
                     <div class="herbergements-cards comlum1">
                         <article class="card">
@@ -208,7 +187,7 @@
                     </div>
                     <p class="aficher_plus"><a href="#">Afiicher plus</a></p>
                 </section>
-                <section class="populaires">
+                <section id="populaires" class="populaires">
                     <div class="populaires-title">
                         <h2 class="section-title">Les plus populaires</h2>
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
@@ -262,6 +241,7 @@
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                     <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                                     <span class="sr-only">Note de 3 sur 5</span>
+
                                 </div>
                             </div>
                         </article>
@@ -269,7 +249,7 @@
                 </section>
             </div>
             <div class="activite">
-                <h1>Activité a Marseille</h1>
+                <h2>Activité a Marseille</h2>
                 <section>
                     <article class="card">
                         <div class="image-activites">
