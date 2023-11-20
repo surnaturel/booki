@@ -13,6 +13,7 @@ body {
     justify-content: center;
     margin: 0px;
     padding: 0px;
+    overflow-x: none;
 }
 
 .main-container {
@@ -638,17 +639,22 @@ footer{
     }
     .search-bar-icon{
         width: 100%;
+        justify-content: space-between;
+    }
+    .search-bar-icon .icon{
+        width: 13%;
     }
     .search-bar-icon .btn-recherche{
         top: calc(50% - 49px/2);
         background: #0065FC;
         border: 1px solid #0065FC;
         border-radius: 15px;
+        width: 13%;
     }
     .search-bar-icon .btn-recherche i{
         display: block;
         color: white;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
     .recherche-1{
         display: none;
@@ -666,7 +672,7 @@ footer{
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        width: 60%;
+        width: 100%;
         margin: 0 auto;
         gap: 10px;
     }
@@ -688,13 +694,16 @@ footer{
     .hebergements-and-populaires {
         flex-direction: column-reverse;
         height: 100%;
+        
     }
     .hebergements-and-populaires section{
         border-radius: 0px;
+        padding: 0;
     }
     .hebergements {
         width: 100%;
         background-color: white !important;
+        margin-top: 80px;
     }
     .herbergements-cards {
         display: flex;
@@ -704,8 +713,11 @@ footer{
         height: 100%;
         gap: 20px;
     }
+    .infromation-titre-paragraphe p, h1{
+        padding-left: 3% !important;
+    }
     .herbergements-cards .card{
-        width: 90%;
+        width: 95%;
         height: 50vw;
     }
     .herbergements-cards .card img{
@@ -720,9 +732,15 @@ footer{
     }
     .populaires {
         width: 100%;
-        margin-top: 50px;
-    }
+        margin: 0%;
 
+    }
+    
+
+    .populaires-title{
+        width: 95%;
+        margin: auto;
+    }
     .populaires-cards {
         display: flex;
         flex-direction: column;
@@ -730,7 +748,7 @@ footer{
         align-items: center; 
     }
     .populaires-cards .card {
-        width: 90%;
+        width: 95%;
         
     }
     .populaires-cards .card-title {
@@ -739,9 +757,16 @@ footer{
     .populaires-cards .card-subtitle {
         font-size: 14px;
     }
+    .aficher_plus a{
+        padding-left: 20px;
+    }
     .activite{
         height: 100%;
         padding: 8px;
+        margin-top: 5%;
+    }
+    .activite h2{
+        padding-left: 20px;
     }
     .activite section{
         display: flex;
@@ -751,7 +776,7 @@ footer{
         height: 100%;
     }
     .activite section .card{
-        width: 90%;
+        width: 95%;
         height: 45vw;
     }
     .activite .image-activites{
