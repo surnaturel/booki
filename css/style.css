@@ -292,17 +292,17 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 29vh;
+    height: 240.25px;
     margin: auto;
     padding: 0;
 }
 .herbergements-cards .card{
     width: 30%;
-    height: 29vh;
+    height: 225.25px;
 }
 .herbergements-cards .card img{
     width: 100%;
-    height: 18vh;
+    height: 140px;
     border-radius: 20px 20px 0px 0px;
 }
 .herbergements-cards .card .card-content{
@@ -372,6 +372,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
+    
 }
 
 .populaires-cards .card-title {
